@@ -6,11 +6,17 @@
 //  Copyright © 2016年 zhangzhihua. All rights reserved.
 //
 
+
+/**
+ *   照片列表
+ */
+
+
 #import <UIKit/UIKit.h>
-#import "ZHH_getAlbumToolViewController.h"
+#import "ZZH_getAlbumToolViewController.h"
 
 
-@interface showListViewController : UIViewController
+@interface ZZH_showListViewController : UIViewController
 
 @property (nonatomic , strong)NSMutableArray *albumListArray;      //列表信息数组(ALAssetsGroup)
 

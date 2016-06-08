@@ -6,10 +6,11 @@
 //  Copyright © 2016年 Bioon. All rights reserved.
 //
 
-#import "show_ImageViewViewController.h"
+#import "ZZH_show_ImageViewViewController.h"
 //#import "Header.h"
 #define VIEW_WIDTH self.view.frame.size.width
 #define VIEW_HEIGHT self.view.frame.size.height
+
 @interface show_ImageViewViewController(){
     CGAffineTransform _steptransform;
     CGFloat _scale;

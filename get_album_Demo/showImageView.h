@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
+
 @protocol  showDelegate<NSObject>
 
 @optional
@@ -15,12 +16,18 @@
 
 -(void)selecttheImageViewMethod:(NSInteger)index and:(BOOL)orSelected;
 
+-(BOOL)orCanClick;
+
 @end
 
 @interface showImageView : UIImageView
 
 @property (nonatomic , assign)id <showDelegate> delegate;
+
 @property (nonatomic , strong)UIButton *selectButton;
+
+@property (nonatomic, assign)BOOL    orCanClick; //是否可以点击
+
 -(void)setframe:(CGRect)frame;
 
 @end

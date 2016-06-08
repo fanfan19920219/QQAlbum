@@ -7,8 +7,12 @@
 //
 
 #import "showImageView.h"
-#import "amplifyViewController.h"
+
 #define BUTTON_SIZE 25.f
+
+#define BUTTON_ANIMATION_SCALE 1.3f
+
+#define BUTTON_ANIMATION_DURATION 0.1f
 
 @implementation showImageView
 
@@ -18,27 +22,27 @@
         [self addamplify];
         self.userInteractionEnabled = YES;
         self.selectButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//        self.selectButton.backgroundColor = [UIColor redColor];
         self.selectButton.selected = NO;
         [self.selectButton addTarget:self action:@selector(selectButtonMethod:) forControlEvents:UIControlEventTouchUpInside];
         [self.selectButton setBackgroundImage:[UIImage imageNamed:@"selete@2x.png"] forState:UIControlStateNormal];
         [self.selectButton setBackgroundImage:[UIImage imageNamed:@"seleted@2x.png"] forState:UIControlStateSelected];
-//        [self.selectButton setTitle:@"y" forState:UIControlStateSelected];
         [self addSubview:self.selectButton];
     }
     return self;
 }
 
 -(void)selectButtonMethod:(UIButton*)sender {
-    sender.selected = !sender.selected;
     showImageView *selectView = (showImageView*)[sender superview];
-    NSLog(@"select---tag --- %ld",(long)selectView.tag);
-    [self.delegate selecttheImageViewMethod:selectView.tag and:sender.selected];
+    [self.delegate selecttheImageViewMethod:selectView.tag and:!sender.selected];
+    if(![self.delegate orCanClick]&&!sender.selected)return;
+    sender.selected = !sender.selected;
     if(sender.selected){
-        [UIView animateWithDuration:0.1 animations:^{
-            sender.frame = CGRectMake(self.frame.size.width - 27.5, 2.5, BUTTON_SIZE + 5, BUTTON_SIZE +5);
+        [UIView animateWithDuration:BUTTON_ANIMATION_DURATION animations:^{
+            sender.transform =CGAffineTransformScale(sender.transform, BUTTON_ANIMATION_SCALE, BUTTON_ANIMATION_SCALE);
         } completion:^(BOOL finished) {
-            sender.frame = CGRectMake(self.frame.size.width - 30, 5, BUTTON_SIZE, BUTTON_SIZE);
+            [UIView animateWithDuration:BUTTON_ANIMATION_DURATION animations:^{
+                sender.transform=CGAffineTransformIdentity;
+            }];
         }];
     }
 }

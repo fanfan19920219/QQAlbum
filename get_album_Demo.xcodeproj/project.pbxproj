@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		291482581CFECDC6003C0172 /* seleted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 291482561CFECDC6003C0172 /* seleted@2x.png */; };
 		291482591CFECDC6003C0172 /* selete@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 291482571CFECDC6003C0172 /* selete@2x.png */; };
-		2945D1221CBF318B00A29CB8 /* amplifyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2945D1211CBF318B00A29CB8 /* amplifyViewController.m */; };
-		294654911CBE208000361A78 /* showImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 294654901CBE208000361A78 /* showImageView.m */; };
 		29D85FDF1CBC9FEF0027E508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85FDE1CBC9FEF0027E508 /* main.m */; };
 		29D85FE21CBC9FEF0027E508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85FE11CBC9FEF0027E508 /* AppDelegate.m */; };
 		29D85FE51CBC9FEF0027E508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85FE41CBC9FEF0027E508 /* ViewController.m */; };
@@ -19,11 +17,13 @@
 		29D85FED1CBC9FF00027E508 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29D85FEB1CBC9FF00027E508 /* LaunchScreen.storyboard */; };
 		29D85FF81CBC9FF00027E508 /* get_album_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D85FF71CBC9FF00027E508 /* get_album_DemoTests.m */; };
 		29D860031CBC9FF00027E508 /* get_album_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D860021CBC9FF00027E508 /* get_album_DemoUITests.m */; };
-		29D860131CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D860121CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.m */; };
-		29DB12541CFD6A9D00715098 /* show_ImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB12531CFD6A9D00715098 /* show_ImageViewViewController.m */; };
-		29DB12571CFD774700715098 /* showListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB12561CFD774700715098 /* showListViewController.m */; };
-		29DB125A1CFD79DD00715098 /* ZHH_getAlbumRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB12591CFD79DD00715098 /* ZHH_getAlbumRootViewController.m */; };
-		29DB125D1CFD89A400715098 /* ALAssetsGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DB125C1CFD89A400715098 /* ALAssetsGroupModel.m */; };
+		29DDECF11D07C54500B5DF69 /* ZZH_AnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDECF01D07C54500B5DF69 /* ZZH_AnimationTool.m */; };
+		29DDED291D081B4800B5DF69 /* ALAssetsGroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED1E1D081B4800B5DF69 /* ALAssetsGroupModel.m */; };
+		29DDED2A1D081B4800B5DF69 /* showImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED201D081B4800B5DF69 /* showImageView.m */; };
+		29DDED2B1D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED221D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h.m */; };
+		29DDED2C1D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED241D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h.m */; };
+		29DDED2D1D081B4800B5DF69 /* ZZH_show_ImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED261D081B4800B5DF69 /* ZZH_show_ImageViewViewController.m */; };
+		29DDED2E1D081B4800B5DF69 /* ZZH_showListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DDED281D081B4800B5DF69 /* ZZH_showListViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +46,6 @@
 /* Begin PBXFileReference section */
 		291482561CFECDC6003C0172 /* seleted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "seleted@2x.png"; sourceTree = "<group>"; };
 		291482571CFECDC6003C0172 /* selete@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selete@2x.png"; sourceTree = "<group>"; };
-		2945D1201CBF318B00A29CB8 /* amplifyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amplifyViewController.h; sourceTree = "<group>"; };
-		2945D1211CBF318B00A29CB8 /* amplifyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amplifyViewController.m; sourceTree = "<group>"; };
-		2946548F1CBE208000361A78 /* showImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showImageView.h; sourceTree = "<group>"; };
-		294654901CBE208000361A78 /* showImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showImageView.m; sourceTree = "<group>"; };
 		29D85FDA1CBC9FEC0027E508 /* get_album_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = get_album_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D85FDE1CBC9FEF0027E508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29D85FE01CBC9FEF0027E508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -66,16 +62,20 @@
 		29D85FFE1CBC9FF00027E508 /* get_album_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = get_album_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D860021CBC9FF00027E508 /* get_album_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = get_album_DemoUITests.m; sourceTree = "<group>"; };
 		29D860041CBC9FF00027E508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29D860111CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHH_getAlbumToolViewController.h; sourceTree = "<group>"; };
-		29D860121CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHH_getAlbumToolViewController.m; sourceTree = "<group>"; };
-		29DB12521CFD6A9D00715098 /* show_ImageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = show_ImageViewViewController.h; sourceTree = "<group>"; };
-		29DB12531CFD6A9D00715098 /* show_ImageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = show_ImageViewViewController.m; sourceTree = "<group>"; };
-		29DB12551CFD774700715098 /* showListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showListViewController.h; sourceTree = "<group>"; };
-		29DB12561CFD774700715098 /* showListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showListViewController.m; sourceTree = "<group>"; };
-		29DB12581CFD79DD00715098 /* ZHH_getAlbumRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHH_getAlbumRootViewController.h; sourceTree = "<group>"; };
-		29DB12591CFD79DD00715098 /* ZHH_getAlbumRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHH_getAlbumRootViewController.m; sourceTree = "<group>"; };
-		29DB125B1CFD89A400715098 /* ALAssetsGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetsGroupModel.h; sourceTree = "<group>"; };
-		29DB125C1CFD89A400715098 /* ALAssetsGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAssetsGroupModel.m; sourceTree = "<group>"; };
+		29DDECEF1D07C54500B5DF69 /* ZZH_AnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_AnimationTool.h; sourceTree = "<group>"; };
+		29DDECF01D07C54500B5DF69 /* ZZH_AnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_AnimationTool.m; sourceTree = "<group>"; };
+		29DDED1D1D081B4800B5DF69 /* ALAssetsGroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAssetsGroupModel.h; sourceTree = "<group>"; };
+		29DDED1E1D081B4800B5DF69 /* ALAssetsGroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAssetsGroupModel.m; sourceTree = "<group>"; };
+		29DDED1F1D081B4800B5DF69 /* showImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showImageView.h; sourceTree = "<group>"; };
+		29DDED201D081B4800B5DF69 /* showImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showImageView.m; sourceTree = "<group>"; };
+		29DDED211D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_getAlbumRootViewController.h; sourceTree = "<group>"; };
+		29DDED221D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_getAlbumRootViewController.h.m; sourceTree = "<group>"; };
+		29DDED231D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_getAlbumToolViewController.h; sourceTree = "<group>"; };
+		29DDED241D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_getAlbumToolViewController.h.m; sourceTree = "<group>"; };
+		29DDED251D081B4800B5DF69 /* ZZH_show_ImageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_show_ImageViewViewController.h; sourceTree = "<group>"; };
+		29DDED261D081B4800B5DF69 /* ZZH_show_ImageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_show_ImageViewViewController.m; sourceTree = "<group>"; };
+		29DDED271D081B4800B5DF69 /* ZZH_showListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZH_showListViewController.h; sourceTree = "<group>"; };
+		29DDED281D081B4800B5DF69 /* ZZH_showListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZH_showListViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +139,7 @@
 				29D85FE11CBC9FEF0027E508 /* AppDelegate.m */,
 				29D85FE31CBC9FEF0027E508 /* ViewController.h */,
 				29D85FE41CBC9FEF0027E508 /* ViewController.m */,
+				29DDECEE1D07C52F00B5DF69 /* ZZH_AnimationTool */,
 				29D860101CBC9FFF0027E508 /* ZHH_getAlbumTool */,
 				29D85FE61CBC9FEF0027E508 /* Main.storyboard */,
 				29D85FE91CBC9FF00027E508 /* Assets.xcassets */,
@@ -178,23 +179,54 @@
 		29D860101CBC9FFF0027E508 /* ZHH_getAlbumTool */ = {
 			isa = PBXGroup;
 			children = (
-				29DB12581CFD79DD00715098 /* ZHH_getAlbumRootViewController.h */,
-				29DB12591CFD79DD00715098 /* ZHH_getAlbumRootViewController.m */,
-				29D860111CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.h */,
-				29D860121CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.m */,
-				2946548F1CBE208000361A78 /* showImageView.h */,
-				294654901CBE208000361A78 /* showImageView.m */,
-				2945D1201CBF318B00A29CB8 /* amplifyViewController.h */,
-				2945D1211CBF318B00A29CB8 /* amplifyViewController.m */,
-				29DB12521CFD6A9D00715098 /* show_ImageViewViewController.h */,
-				29DB12531CFD6A9D00715098 /* show_ImageViewViewController.m */,
-				29DB12551CFD774700715098 /* showListViewController.h */,
-				29DB12561CFD774700715098 /* showListViewController.m */,
-				29DB125B1CFD89A400715098 /* ALAssetsGroupModel.h */,
-				29DB125C1CFD89A400715098 /* ALAssetsGroupModel.m */,
+				29DDED1D1D081B4800B5DF69 /* ALAssetsGroupModel.h */,
+				29DDED1E1D081B4800B5DF69 /* ALAssetsGroupModel.m */,
+				29DDED1F1D081B4800B5DF69 /* showImageView.h */,
+				29DDED201D081B4800B5DF69 /* showImageView.m */,
+				29DDED211D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h */,
+				29DDED221D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h.m */,
+				29DDED231D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h */,
+				29DDED241D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h.m */,
+				29DDED251D081B4800B5DF69 /* ZZH_show_ImageViewViewController.h */,
+				29DDED261D081B4800B5DF69 /* ZZH_show_ImageViewViewController.m */,
+				29DDED271D081B4800B5DF69 /* ZZH_showListViewController.h */,
+				29DDED281D081B4800B5DF69 /* ZZH_showListViewController.m */,
+				29DDECED1D07C40200B5DF69 /* Model */,
+				29DDECEC1D07C3F900B5DF69 /* View */,
+				29DDECEB1D07C3EB00B5DF69 /* Controller */,
 				2914825A1CFED69C003C0172 /* image */,
 			);
 			name = ZHH_getAlbumTool;
+			sourceTree = "<group>";
+		};
+		29DDECEB1D07C3EB00B5DF69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		29DDECEC1D07C3F900B5DF69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		29DDECED1D07C40200B5DF69 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29DDECEE1D07C52F00B5DF69 /* ZZH_AnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				29DDECEF1D07C54500B5DF69 /* ZZH_AnimationTool.h */,
+				29DDECF01D07C54500B5DF69 /* ZZH_AnimationTool.m */,
+			);
+			name = ZZH_AnimationTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,16 +362,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29D860131CBCBA7C0027E508 /* ZHH_getAlbumToolViewController.m in Sources */,
-				2945D1221CBF318B00A29CB8 /* amplifyViewController.m in Sources */,
-				29DB12541CFD6A9D00715098 /* show_ImageViewViewController.m in Sources */,
-				294654911CBE208000361A78 /* showImageView.m in Sources */,
+				29DDED2B1D081B4800B5DF69 /* ZZH_getAlbumRootViewController.h.m in Sources */,
+				29DDED291D081B4800B5DF69 /* ALAssetsGroupModel.m in Sources */,
+				29DDED2A1D081B4800B5DF69 /* showImageView.m in Sources */,
 				29D85FE51CBC9FEF0027E508 /* ViewController.m in Sources */,
-				29DB125D1CFD89A400715098 /* ALAssetsGroupModel.m in Sources */,
+				29DDED2C1D081B4800B5DF69 /* ZZH_getAlbumToolViewController.h.m in Sources */,
 				29D85FE21CBC9FEF0027E508 /* AppDelegate.m in Sources */,
-				29DB125A1CFD79DD00715098 /* ZHH_getAlbumRootViewController.m in Sources */,
+				29DDED2E1D081B4800B5DF69 /* ZZH_showListViewController.m in Sources */,
 				29D85FDF1CBC9FEF0027E508 /* main.m in Sources */,
-				29DB12571CFD774700715098 /* showListViewController.m in Sources */,
+				29DDECF11D07C54500B5DF69 /* ZZH_AnimationTool.m in Sources */,
+				29DDED2D1D081B4800B5DF69 /* ZZH_show_ImageViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

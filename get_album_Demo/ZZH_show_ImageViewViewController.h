@@ -1,10 +1,14 @@
 //
-//  show_ImageViewViewController.h
+//  ZZH_show_ImageViewViewController.h
 //  NewMedSci
 //
 //  Created by zhangzhihua on 16/4/27.
 //  Copyright © 2016年 Bioon. All rights reserved.
 //
+
+/**
+ *  查看大图
+ */
 
 #import <UIKit/UIKit.h>
 
